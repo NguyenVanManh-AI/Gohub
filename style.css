@@ -20,7 +20,7 @@ a:link,a:active,a:visited
 #hero{
 	height: 1902px;
 	background-image: url(img/Vectoe.png);
-	background-position: 10px -144px ;/* left và top */	
+	background-position: 10px -144px ; 
 	background-repeat: no-repeat;	 
 }
 #hero header{
