@@ -1,0 +1,643 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+li
+{
+	list-style: none;
+}
+a:link,a:active,a:visited
+{
+	text-decoration: none;
+}
+
+#hero{
+	padding: 50px 343px 96px 343px ;
+}
+#hero{
+	height: 1902px;
+	background-image: url(img/Vectoe.png);
+	background-position: 10px -144px ;/* left và top */	
+	background-repeat: no-repeat;	 
+}
+#hero header{
+	height: 46px;
+	display: flex;
+}
+@font-face{
+	font-family: Brown_Bold;
+	src:url(Brown_Bold/Brown_Bold.ttf)
+}
+@font-face{
+	font-family: Brown_Light;
+	src:url(Brown_Light.otf);
+}
+#hero header a{
+	font-family: Brown_Bold,sans-serif;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	font-size: 19px;
+}
+#menu {
+	margin-left: 496px; 
+	margin-right: 30px; 
+	width: 435px;
+	display: flex;
+	justify-content:space-between;
+}
+#menu li a{
+	color: black;
+}
+#hero header button{
+	width: 100px;
+	border: none;
+	background-color: #845cff;
+	box-shadow: -11px 8px 20px rgb(132,92,255,0.2); 
+	border-radius: 3.6px;
+}
+#hero header button:hover{
+	background-color: #5226d7;
+}
+#hero header button a{
+	color: white;
+}
+
+
+
+#banner_content{
+	margin-top: 281px;
+	width: 469px;
+}
+#banner_content h1{
+	font-size: 48px;
+	line-height: 62px;
+	color: #32325d;
+	font-family: Brown_Bold,sans-serif;
+}
+#banner_content h5{
+	margin-top: 36.5px;
+	margin-bottom: 35.5px;
+	font-family: Brown_Light,sans-serif;
+	color: #525f7f;
+	font-size: 23px;
+	line-height: 32px;
+}
+
+.button{
+	margin-right: 33px;
+	width: 145px;
+	height: 44px;
+	background-color: #845cff;
+	box-shadow: -11px 8px 20px rgb(132,92,255,0.2); 
+	border-radius: 3.6px;
+	border: none;
+}
+.button a{
+	display: inline-block;
+	font-family: Brown_Bold,sans-serif;
+	font-size: 15px;
+	line-height: 46px;
+	color: white;
+}
+@font-face{
+	font-family: brown_regular;
+	src:url(brown_regular.ttf);
+}
+.questions{
+	font-family: brown_regular,sans-serif;
+	font-size: 19px;
+	line-height: 39px;
+	color: #32325d;
+}
+button:hover{
+	background-color: #5226d7;
+}
+
+
+
+
+#about_us {
+	margin-top: 72px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#title{
+	margin-top:61px; 
+	padding-top: 226px;
+	width: 560px;
+	height: 479px;
+	border-radius: 10px;
+	clear: both;
+}
+#title h1{
+	margin-bottom: 26px;
+	color: #32325d;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 48px;
+	list-style: 62px;
+	font-family: Brown_Light,sans-serif;
+}
+#title h5{
+	font-family: Brown_Light,sans-serif;
+	font-size: 23px;
+	line-height: 32px;
+	color: #525f7f;
+}
+
+
+.feature_element{
+	background-color: white;
+	margin-top: 61px;
+	border-radius: 10px;
+	width: 560px;
+	height: 479px;
+	padding: 0px 63px;
+	box-shadow: -11px 8px 20px rgb(212,212,250,0.2); 
+}
+.feature_element img{
+	margin-top: 63px;
+	margin-left: 24px;
+}
+.feature_element h2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-family: Brown_Light,sans-serif;
+	font-size: 30px;
+	color: #212240;
+}
+.feature_element h5{
+	font-family: Brown_Light,sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: #525f7f;
+}
+
+
+
+
+#services{
+	height: 1616px;
+	margin-top: 113px;
+	padding:0px 343px;
+	background-image: url(img/BG2.png);
+	background-position: 0px 521px;
+	background-repeat: no-repeat;
+}
+#services_title{
+	padding-top: 86px;
+	margin-bottom: 142px;
+}
+#services_title h1{
+	font-family: Brown_Light,sans-serif; 
+	font-size: 48px;
+	line-height: 62px;
+	color: #32325d;
+	text-align: center;
+}
+@font-face{
+	font-family: Myriad_Pro_Regular;
+	src:url(Myriad_Pro_Regular/Myriad_Pro_Regular.ttf);
+}
+#services_title h5{
+	font-family: Myriad_Pro_Regular,sans-serif; 
+	color: #525f7f;
+	font-size: 23px;
+	line-height: 32px;
+	text-align: center;
+	padding:28.5px 185px 0px 184px; 
+}
+
+.services_name {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.services_name li{
+	width: 250px;
+	height: 383px;
+}
+.services_name li img{
+	margin-left: 86px;
+}
+.services_name li h3{
+	margin-top: 44px;
+	margin-bottom: 13.5px;
+	font-family: brown_regular,sans-serif;
+	font-size: 20px;
+	color: #212240;
+	text-align: center;
+}
+.services_name li h5{
+	font-family: Brown_Light,sans-serif; 
+	color: #525f7f;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+}
+
+
+#what_we_do{
+	height: 2662px;
+	margin-top: 97px;
+	padding: 90px 343px 201px 343px; 
+	background-image: url(img/bg_what_we_do.png);
+	background-position: right 1492px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.what_we_do_element{
+	width: 555px;
+	height: 484px;
+}
+#safety{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 242px;
+}
+#move{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse; 
+}
+.what_we_do_element h1{
+	font-family: Brown_Light,sans-serif;
+	font-size: 48px;
+	line-height: 62px;
+	color: #32325d;
+}
+.what_we_do_element h3{
+	font-family: Brown_Light,sans-serif;
+	margin-top: 26.5px;
+	margin-bottom: 47.5px;
+	font-size: 23px;
+	line-height: 32px;
+	color: #525f7f;
+}
+.what_we_do_element ul li h2{
+	font-family: Brown_Light,sans-serif;
+	font-size: 30px;
+	line-height: 62px;
+	color: #32325d;
+}
+.what_we_do_element ul li h5{
+	margin-top: 4.5px;
+	font-family: Brown_Light,sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	color: #525f7f;
+}
+.what_we_do_element ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 56px;
+}
+.what_we_do_element ul li{
+	width: 214px;
+}
+#what_we_do img{
+	object-fit: contain;
+}
+
+
+#finances{
+	margin-top: 290px;
+}
+#finances h1{
+	margin-bottom: 32.5px;
+	font-family: Brown_Light,sans-serif;
+	font-size: 48px;
+	line-height: 62px;
+	color: #32325d;
+}
+#finances h3{
+	font-family: Brown_Light,sans-serif;
+	margin-right: 553px;
+	font-size: 23px;
+	line-height: 32px;
+	color: #525f7f;
+	margin-bottom: 145px;
+}
+#finances h2{
+	font-family: brown_regular,sans-serif;
+	font-size: 30px;
+	line-height: 62px;
+	color: #32325d;
+}
+#finances h4{
+	position: relative;
+	font-family: brown_regular,sans-serif;
+	font-size: 20px;
+	line-height: 62px;
+	color: #32325d;
+	padding-left: 39px;
+}
+#finances img{
+	position: absolute;
+	top: 23px;
+	left: 0px;
+}
+#finances ul li:first-child{
+	margin-bottom: 80.5px;
+}
+#finances ul li:nth-child(2){
+	float: left;
+	margin-right: 136px;	
+}
+#finances ul li:nth-child(3){
+	 float: left;
+}
+#finances ul li:nth-child(4){
+	clear: both;
+}
+
+
+
+#request_a_demo{
+	display: flex;
+	justify-content: space-between;
+	height: 400px;
+	padding:120px 343px 96.5px 343px;
+	background-color: #fafaff;
+}
+#request_a_demo h1{
+	margin-top: 32px;
+	font-family: Brown_Light,sans-serif; 
+	color: #212240;
+	font-size: 48px;
+	line-height: 70px;
+}
+#request_a_demo h5{
+	font-family: Brown_Light,sans-serif; 
+	color: #212240;
+	font-size: 23px;
+	line-height: 70px;
+}
+
+
+
+#request_a_demo form{
+	margin-top: 38px;
+	width: 563px;
+	height: 84px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+}
+#request_a_demo form input{
+	outline: none;
+	margin-left: 39px;
+	width: 336px;
+	font-size: 20px;
+	border: none;
+}
+#request_a_demo form button{
+	font-size: 15px;
+	line-height: 46px;
+	font-family: Brown_Bold,sans-serif;
+	outline: none;
+	background-color: transparent;
+	margin-right:29px;
+	border: none;
+}
+#request_a_demo form button a{
+	color: #845cff;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	height: 562px;
+	padding: 148px 343px 0px 343px;
+	background-color: #212240;
+}
+.telephone_number{
+	font-family: Brown_Light,sans-serif; 
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+}
+#info a{
+	font-family: brown_regular,sans-serif; 
+	font-size: 16px;
+	line-height: 28px;
+	color: white;
+}
+#company img{
+	margin-bottom: 47px;
+}
+#company h5:nth-child(1){
+	margin-bottom: 1px;
+}
+#info{
+	margin-top: 35px;
+	margin-bottom: 43px;
+}
+#company img:not(#company_logo){
+	margin-right: 26px;
+}
+footer >ul{
+	display: flex;
+}
+footer >ul>li:nth-child(1){
+	width: 280px;
+	margin-top: -17px;
+}
+footer >ul>li:nth-child(2){
+	width: 300px;
+	margin-top: -23px;
+}
+footer >ul>li:nth-child(3){
+	width: 176px;
+	margin-top: -17px;
+}
+footer >ul>li:nth-child(1) a{
+	font-family: Brown_Light,sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	color: white;
+}
+footer >ul>li:nth-child(2) a{
+	font-family: brown_regular,sans-serif; 
+	font-size: 16px;
+	line-height: 62px;
+	color: white;
+}
+footer >ul>li:nth-child(3) a{
+	font-family: Brown_Light,sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	color: white;
+}
+
+#copyright{
+	clear: both;
+	margin-top: -1px;
+	padding: 40px 343px 26px 343px;
+	background-color: #212240;
+}
+#copyright h5{
+	font-family: Brown_Light,sans-serif;
+	font-size: 16px;
+	line-height: 70px;
+	color: #555377;
+}
+#copyright ul{
+	display: flex;
+	justify-content: space-between;
+}
+#copyright ul li:nth-child(2) {
+	display: flex;
+}
+#copyright ul li:nth-child(2) h5{
+	margin-left: 40px;
+}
+
+
+/* style thêm */
+#menu li a:hover{
+	color: red;
+}
+.questions:hover{
+	color: red;
+}
+.feature_element:hover{
+	box-shadow: 0px 0px 16px #1b00ff;
+	padding-top: 10px;
+}
+.services_name li:hover{
+	height: 266px;
+	box-shadow: 0px 0px 16px #1b00ff;
+	border-radius: 10px;
+	padding-top: 16px;
+}
+footer ul li a:hover{
+	font-size: 20px;
+	color: #00c9ff;
+}
+#company a:hover{
+	color: #00c9ff;
+}
+
+
+
+/* reponsive chưa xong , lúc khác hoàn thiện tiếp */
+@media(min-width:1080px) and (max-width: 1920px){
+	#request_a_demo{
+		clear: both;
+	}
+}
+@media(min-width:1760px) and (max-width: 1912px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:260px;
+		padding-right: 260px; 
+	}
+}
+@media(min-width:1700px) and (max-width: 1760px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:123px;
+		padding-right: 123px; 
+	}
+}
+@media(min-width:1660px) and (max-width: 1700px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:103px;
+		padding-right: 103px; 
+	}
+}
+@media(min-width:1600px) and (max-width: 1660px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:83px;
+		padding-right: 83px; 
+	}
+}
+@media(min-width:1540px) and (max-width: 1600px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:63px;
+		padding-right: 63px; 
+	}
+}
+@media(min-width:1520px) and (max-width: 1540px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:30px;
+		padding-right: 30px; 
+	}
+}
+@media(min-width:1440px) and (max-width: 1520px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:23px;
+		padding-right: 23px; 
+	}
+	#hero{
+	background-image: url(img/Vectoe.png);
+	background-position: -462px -153px ;/* left và top */	
+	background-repeat: no-repeat;
+	}	
+}
+@media(min-width:1267px) and (max-width: 1440px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:20px;
+		padding-right: 20px; 
+	}
+	#hero{
+	background-image: url(img/Vectoe.png);
+	background-position: -462px -153px ;/* left và top */	
+	background-repeat: no-repeat;
+	}	
+}
+
+
+@media(min-width:1080px) and (max-width: 1267px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:20px;
+		padding-right: 20px; 
+	}
+	#hero{
+	background-image: url(img/Vectoe.png);
+	background-position: -462px -153px ;/* left và top */	
+	background-repeat: no-repeat;
+	}	
+	#finances ul li:nth-child(2){
+		margin-bottom: 80.5px;
+	}
+
+}
+@media(min-width:1160px) and (max-width: 1240px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:20px;
+		padding-right: 20px; 
+	}
+	#about_us{
+		justify-content: center;
+		margin-top:50px;
+	}
+	#hero{
+	height: 2795px;
+	background-image: url(img/Vectoe.png);
+	background-position: -462px -153px ;/* left và top */	
+	background-repeat: no-repeat;	 
+    }
+}
+@media(min-width:1080px) and (max-width: 1160px){
+	#hero,#services,#what_we_do,#request_a_demo,footer,#copyright{
+		padding-left:20px;
+		padding-right: 20px; 
+	}
+	#about_us{
+		justify-content: center;
+		margin-top: -179px;
+	}
+	#hero{
+	height: 2600px;
+	background-image: url(img/Vectoe.png);
+	background-position: -462px -153px ;/* left và top */	
+	background-repeat: no-repeat;	 
+    }
+}
+
